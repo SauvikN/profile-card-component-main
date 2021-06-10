@@ -1,0 +1,97 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+.attribution a {
+    color: hsl(0, 0%, 99%);
+    text-decoration: none;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(185, 75%, 39%);
+    min-height: 100vh;
+    font-family: "Kumbh Sans", sans-serif;
+    background-image: url("images/bg-pattern-top.svg"),
+        url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    background-position: right 48vw bottom 40vh, left 42vw top 50vh;
+}
+.card {
+    background-color: white;
+    height: 360px;
+    width: 320px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 0 50px 5px hsl(229deg 27% 23% / 52%);
+}
+.card-background {
+    background-image: url("images/bg-pattern-card.svg");
+    height: 35%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-3em);
+}
+.Bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(229, 23%, 23%);
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+}
+span {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: 0.9em;
+}
+.age {
+    margin-left: 5px;
+}
+.location {
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateY(3em);
+    padding-top: 15px;
+    border-top: 2px solid rgba(216, 213, 213, 0.89);
+}
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 16px;
+}
+h3 {
+    margin-top: 0.9em;
+    margin-bottom: 0.5em;
+}
+.h4 {
+    margin-top: 0.9em;
+    margin-bottom: 5px;
+}
+.stat-name {
+    font-size: 12px;
+}
